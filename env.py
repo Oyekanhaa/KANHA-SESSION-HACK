@@ -5,11 +5,11 @@ load_dotenv()
 
 API_ID = os.getenv("API_ID", "27383453")
 API_HASH = os.getenv("API_HASH", "4c246fb0c649477cc2e79b6a178ddfaa")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6918499458:AAFtXeIJ9sdXAuHk7tGAcrU5OTF1KYMZebk")
-SUDOERS = list(map(int, os.getenv("SUDOERS", "6762113050").split()))
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8298614904:AAHe6B002vfO_OutmYk_vQu1AO0LsjSzl90")
+SUDOERS = list(map(int, os.getenv("SUDOERS", "7682307978").split()))
 MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", "-1002018556839")
-MUST_JOIN = os.getenv("MUST_JOIN", "SHIVANSH474")
+LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", "-1003318966715")
+MUST_JOIN = os.getenv("MUST_JOIN", "Aboutkanha")
 DISABLED = os.getenv("DISABLED", "").split()
 
 if not API_ID:
